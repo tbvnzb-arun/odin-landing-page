@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    padding: 0.5em 3em;
+    border-radius: 0.8em;
+}
+
+.image {
+    max-inline-size: 250px;
+    border: 5px solid #3b82f6;
+    min-block-size: 200px;
+    border-radius: 10%;
+}
+
+.image-content {
+    width: 500px;
+    height: 300px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.wrapper {
+    max-inline-size: 1300px;
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+.bg-accent {
+    background-color: #1f2937;
+    color: white;
+}
+
+.bg-primary {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.bg-muted {
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+button.bg-muted {
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2em;
+    padding: 3em 0;
+}
+
+.child-card {
+    flex: 0 1 200px;
+}
+
+header,
+section,
+main,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+em {
+    font-weight: 100;
+}
+
+main,
+section,
+footer {
+    padding: 5em 0;
+}
+
+.image-label {
+    font-size: 0.8rem;
+}
+
+.cta.cards {
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1 1 40%;
+}
+
+.primary-navigation {
+    display: flex;
+    gap: 1.5em;
+}
+
+.cards {
+    justify-content: space-between;
+}
